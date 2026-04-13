@@ -8,10 +8,12 @@ public class Main {
 
 
         // --- Shape ---
+        System.out.println("Shape");
         Shape shape = new Shape("Red", true);
         System.out.println(shape);
 
         // --- Circle ---
+        System.out.println("\n Circle");
         Circle circle1 = new Circle(5);
         System.out.println(circle1);
 
@@ -21,6 +23,7 @@ public class Main {
         System.out.println("Perimeter: " + circle2.getPerimeter());
 
         // --- Rectangle ---
+        System.out.println("\n Rectangle");
         Rectangle rect1 = new Rectangle(4, 6);
         System.out.println(rect1);
 
@@ -30,6 +33,7 @@ public class Main {
         System.out.println("Perimeter: " + rect2.getPerimeter());
 
         // --- Square ---
+        System.out.println("\n Square");
         Square sq1 = new Square(5);
         System.out.println(sq1);
 
